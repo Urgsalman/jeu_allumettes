@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with Make",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile le projet avec Makefile"
+        },
+        {
+            "label": "Run Game",
+            "type": "shell",
+            "command": "./bin/jeu_allumettes",
+            "group": "test",
+            "problemMatcher": [],
+            "detail": "Exécute le jeu"
+        }
+    ]
+}
